@@ -1430,10 +1430,10 @@ jenkins:
             Command: "/bin/sh -c"
             Args: "cat"
             Tty: true
-      HackMD-Nodejs8x:
-        Name: nodejs8x
+      Nodejs8x-HackMD:
+        Name: nodejs8x-hackmd
         # ServiceAccount: fooo
-        Label: jenkins-nodejs8x
+        Label: jenkins-nodejs8x-hackmd
         DevPodPorts: 9229, 3000, 8080
         volumes:
           - type: Secret
