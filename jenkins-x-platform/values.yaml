@@ -2115,7 +2115,7 @@ jenkins:
             RequestMemory: "128Mi"
             Args: '${computer.jnlpmac} ${computer.name}'
           Nodejs:
-            Image: hackmdio/builder-nodejs8x:1.0.1
+            Image: hackmdio/builder-nodejs8x:1.0.2
             Privileged: true
             Command: "/bin/sh -c"
             Args: "cat"
